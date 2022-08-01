@@ -1,0 +1,250 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font: inherit;
+	vertical-align: baseline;*/
+
+}
+
+html, body {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+textarea {overflow:auto;}
+
+body{
+    background: url(ImagesAnti/carbon-fiber-texture-background_107708-13.png);
+}
+.container{
+    width: 800px;
+    height: auto;
+    margin: 20px auto;
+}
+.logo{
+    width: 351px;
+    height: 135px;
+    background: url(ImagesAnti/logo-web-hosting_1_351x135.png);
+}
+.menu{
+    width:821px;
+    height: 42px;
+    background: #000;
+    border-radius:10px 0px;
+}
+.mid{
+    width: 801px;
+    height: 730px;
+    background: #e9e5e2;
+    padding: 30px 0 0 20px;
+
+}
+.footer{
+    width: 820px;
+    height: 150px;
+    background: url(ImagesAnti/logo-web-hosting_1_351x135.png) right no-repeat;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    width: 80px;
+    height: 30px;
+    color: aliceblue;
+    font: bold 12px tahoma;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 0 0 0;
+}
+.menu ul li#home a{
+    background: url(ImagesAnti/neontriangle_13x6.png)  center bottom no-repeat;
+}
+.menu ul li a:hover{
+    background: url(ImagesAnti/neontriangle_13x6.png)  center bottom no-repeat;
+}
+.mid1{
+    width: 456px;
+    height: 30px;
+    background: url(ImagesAnti/logo-web_1_28x28.png) no-repeat;
+    float: left;
+    font: 20px tahoma; color: #24a4e7;
+    padding: 0 0 0 40px;
+    letter-spacing: 2px;
+}
+.text1{
+    font: bold 24px tahoma; color: #d95b27;
+   
+}
+.mid2{
+    width: 441px;
+    height: 177px;
+    background:bisque;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5); 
+    float: left;
+    font: 12px tahoma;
+    color: #000;
+    padding: 25px 40px 0 25px;
+    text-align: justify;
+    line-height: 20px;
+}
+.text2{
+    font: bold 12px tahoma; color: #d17750;
+   
+}
+.readmore{
+    width: 80px;
+    height: 23px;
+    background: #24a4e7;
+    border-radius: 20px;
+    margin: -15px 0 0 370px;
+    padding:0 0 0 22px;
+}
+.readmore a{
+    text-decoration: none;
+    font: bold 11px tahoma;
+    color: #000;
+}
+.readmore a:hover{
+    color: #d95b27;
+    text-decoration: underline;
+}
+.mid3{
+    width: 187px;
+    height: 265px;
+    float: left;
+    margin: -25px 0 0 30px;
+}
+.mid4{
+    width: 466px;
+    height: 142px;
+    float: left;
+    font: bold 13px tahoma;
+    color: #000;
+    padding: 10px 0 0 30px;
+}
+.mid4 ul li{
+    display: block;
+    width: 420px;
+    height: 21px;
+    background: url(imagesAnti/logo-web_1_28x28.png) no-repeat;
+    font: 11px tahoma;
+    padding: 4px 0 0 10px;
+}
+.text3{
+    font: bold 12px tahoma;
+    color: #000
+}
+.mid5{
+    width: 268px;
+    height: 139px;
+    float: left;
+    background: bisque;  
+    padding: 20px 0 0 20px;
+}
+.mid5 td{
+    font: bold 11px tahoma;
+    color: #000;
+}
+.mid5 td span{
+font-size: 15px;
+}
+.textbox{
+    border: 1px solid #b5c6d0;
+    border-radius: 5px;
+    width: 150px;
+    height: 16px;
+}
+.btn{
+    width: 83px;
+    height: 24px;
+    background: url(ImagesAnti/silver-button-png-3282546_84x24.png);
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+.mid6{
+    width: 466px;
+    height: 249px;
+    float: left;  
+    font: bold 13px tahoma;
+    padding: 10px 0 0 30px;
+    margin: 10px 0 0 0;
+}
+.mid6 ul li{
+    display: block;
+    width: 400px;
+    height: 90px;
+    background: url(imagesAnti/neontriangle_100x100.png) no-repeat; border-bottom: 1px dashed #ccc;
+    font: 13px tahoma;
+    padding: 0 0 0 40px;
+    text-align: justify;
+}
+.mid7{
+    width: 288px;
+    height: 25px;
+    float: left;  
+    font: bold 14px tahoma;
+    margin: 20px 0 0 0;
+}
+.mid8{
+    width: 258px;
+    height: 139px;
+    float: left;  
+    background:bisque;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5); 
+    font: 12px tahoma;
+    font-style: italic;
+    text-align: justify;
+    padding: 20px 10px 0 20px;
+    line-height: 20px;
+}
+.mid8 span{
+    font-weight: bold;
+}
+.footer ul li{
+    float: left;
+}
+.footer ul li a{
+    display: block;
+    padding: 3px 10px;
+    font: 13px tahoma;
+    color: #757266;
+    text-decoration: none;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+}
