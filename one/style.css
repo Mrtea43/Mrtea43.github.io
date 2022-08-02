@@ -1,0 +1,120 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body, html{
+    height: 100%;
+}
+nav{
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 140px;
+    z-index: 2;
+}
+nav a{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+    padding: 12px 12px;
+
+}
+nav a:hover{
+    background-color: #000;
+   
+}
+
+
+.pic{
+    width: 100%;
+    height: 100%;
+    background: #c6c;
+    background-size: cover ;
+    background-attachment:fixed ;
+}
+.Band{
+    height: 10px;
+    background-color: transparent;
+}
+#pic1{
+    background-image:url(ImagesOef/1.1.png) ;
+}
+#pic2{
+    background-image:url(ImagesOef/2.png) ;
+}
+#pic3{
+    background-image: url(ImagesOef/3.5.6.png);
+}
+#pic4{
+    background-image:url(ImagesOef/5.1.png) ;
+}
+#pic5{
+    background-image:url(ImagesOef/5fixed.png) ;
+}
+
+#Band1{
+    
+}
+#Band2{
+    
+}
+#Band3{
+    
+}
+.home{
+    position: absolute;
+    float: left;
+}
+.homeText{
+width: 100%;
+height: 100%;
+
+z-index: 1;
+text-align: center;
+margin-top: 250px;
+}
+.homeText h1{
+    font-family: 'Raleway', sans-serif;
+font-family: 'Uchen', serif;
+    font-size: 90px;
+    color: azure;
+}
+.homeText p{
+    font-family: 'Raleway', sans-serif;
+font-family: 'Uchen', serif;
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 20px;
+    
+}
+.homeText span:hover{
+    background-color: #2d8882;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.homeText a{
+    text-decoration: none;
+}
+.homeText span{
+    font-family: 'Raleway', sans-serif;
+font-family: 'Uchen', serif;
+    
+    color: #fff;
+    padding: 10px 10px;
+    background: #c6c;
+    font-size: 19px;
+    border: 1px solid #c6c;
+    border-radius: 5px;
+}
+.homeFilter{
+    width: 100%;
+    height: 550%;
+    background-color: #000;
+    opacity: 0.25;
+    z-index: 0;
+}

@@ -1,0 +1,211 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+nav{
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    line-height: 140px;
+    z-index: 2;
+}
+nav a{
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+    padding: 12px 12px;
+
+}
+nav a:hover{
+    background-color: #2d8882;
+   
+}
+.Container{
+    width: 760px;
+    height: auto;
+    margin: 10px auto;
+}
+.menu{
+    width: 400px;
+    height: 50px;
+    margin: 0 0 0 11px;
+}
+.backGround{
+    width: 760px;
+    height: 150px;
+    background: url(Enlighten/Images/m6hfhs8upzbegpxugw3tsmal.jpeg) no-repeat; 
+}
+.about1{
+    width: 405px;
+    height: 302px;
+    float: left;
+    font: 12px tahoma ; color: #999;
+    padding: 20px 0 0 10px;
+
+}
+.about2{
+    width: 325px;
+    height: 322px;
+    float: left;
+    margin: 20px 0 0 20px;
+    font: 13px tahoma ; color: #999;
+}
+.footerleft{
+    width: 435px;
+    height: 68px;
+    float: left;
+    font: 11px tahoma ;
+    color: #ccc;
+    border-top: 1px solid #ccc ;
+    padding: 30px 0 0 0;
+}
+.footerright{
+    width: 325px;
+    height: 68px;
+    float: left;
+    border-top: 1px solid #ccc ;
+    padding: 30px 0 0 0;
+    font: 11px tahoma;
+    color: #ccc;
+    text-decoration:none;
+
+
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    height: 50px;
+    text-indent: -2000px;
+}
+.menu ul li#about a{
+    width: 71px;
+    background: url(Enlighten/Images/css-baliklama16.gif) 0 -100px no-repeat;
+}
+.menu ul li#services a{
+    width: 84px;
+    background: url(Enlighten/Images/css-baliklama17.gif) no-repeat;
+}
+.menu ul li#portfolio a{
+    width: 95px;
+    background: url(Enlighten/Images/css-baliklama18.gif) 0 0 no-repeat;
+}
+.menu ul li#contact a{
+    width: 95px;
+    background: url(Enlighten/Images/css-baliklama19.gif) 0 0 no-repeat;
+}
+.menu ul li#services a:hover{
+    
+    background: url(Enlighten/Images/css-baliklama17.gif)0 -100px no-repeat;
+}
+.menu ul li#portfolio a:hover{
+    
+    background: url(Enlighten/Images/css-baliklama18.gif) 0 -100px no-repeat;
+}
+.menu ul li#contact a:hover{
+    
+    background: url(Enlighten/Images/css-baliklama19.gif) 0 -100px no-repeat;
+}
+
+.backGroundIn{
+    width: 250px;
+    height: 0px;
+    font: 25px verdana;
+    color: #fff;
+    margin: 0px 0px 0px 10px;
+    padding: 10px 0 0 0 ;
+    
+    
+}
+.none{
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    height: 30px;
+    padding: 10px 10px ;
+    margin: 0px 0 10px 0;
+    
+    border: 2px solid #ccc;
+   
+}
+
+.none:hover{
+    background: #85e25e; 
+}
+.text1{
+    font: bold 23px verdana; color :#fff;
+   
+}
+.text2{
+    font: bold 23px tahoma; color: #f60;
+}
+.text3{
+    font: bold 13px tahoma; color: #888;
+}
+.text4{
+    font: bold 21px tahoma; color: #85e25e;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+.text4:hover{
+    color: #000;
+}
+.footerright a{
+    font: 11px tahoma;
+    color: #ccc;
+    text-decoration:none;
+    text-transform: capitalize;
+}
+.footerright a:hover{
+    color: #d36818;
+    text-decoration:underline;
+}
+.text5{
+    font: 11px tahoma; color: #d36818;
+}
