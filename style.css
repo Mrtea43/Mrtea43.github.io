@@ -77,7 +77,7 @@ nav a:hover{
 .backGround{
     width: 760px;
     height: 150px;
-    background: url(Enlighten/Images/m6hfhs8upzbegpxugw3tsmal.jpeg) no-repeat; 
+    background: url(./enlighten/Images/m6hfhs8upzbegpxugw3tsmal.jpeg) no-repeat; 
 }
 .about1{
     width: 405px;
@@ -125,31 +125,31 @@ nav a:hover{
 }
 .menu ul li#about a{
     width: 71px;
-    background: url(Enlighten/Images/css-baliklama16.gif) 0 -100px no-repeat;
+    background: url(./enlighten/Images/css-baliklama16.gif) 0 -100px no-repeat;
 }
 .menu ul li#services a{
     width: 84px;
-    background: url(Enlighten/Images/css-baliklama17.gif) no-repeat;
+    background: url(./enlighten/Images/css-baliklama17.gif) no-repeat;
 }
 .menu ul li#portfolio a{
     width: 95px;
-    background: url(Enlighten/Images/css-baliklama18.gif) 0 0 no-repeat;
+    background: url(./enlighten/Images/css-baliklama18.gif) 0 0 no-repeat;
 }
 .menu ul li#contact a{
     width: 95px;
-    background: url(Enlighten/Images/css-baliklama19.gif) 0 0 no-repeat;
+    background: url(./enlighten/Images/css-baliklama19.gif) 0 0 no-repeat;
 }
 .menu ul li#services a:hover{
     
-    background: url(Enlighten/Images/css-baliklama17.gif)0 -100px no-repeat;
+    background: url(./enlighten/Images/css-baliklama17.gif)0 -100px no-repeat;
 }
 .menu ul li#portfolio a:hover{
     
-    background: url(Enlighten/Images/css-baliklama18.gif) 0 -100px no-repeat;
+    background: url(./enlighten/Images/css-baliklama18.gif) 0 -100px no-repeat;
 }
 .menu ul li#contact a:hover{
     
-    background: url(Enlighten/Images/css-baliklama19.gif) 0 -100px no-repeat;
+    background: url(./enlighten/Images/css-baliklama19.gif) 0 -100px no-repeat;
 }
 
 .backGroundIn{
